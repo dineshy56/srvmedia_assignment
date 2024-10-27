@@ -1,0 +1,1236 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Cinzel", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+img{
+    max-width: 100%;
+}
+body{
+    overflow-x: hidden;
+}
+.mainColor{
+    color:#FFCD69 !important;
+}
+.smallFont{
+    font-family: "Petrona", serif;
+}
+.titleText{
+    font-size: 80px;
+    font-weight: 400;
+    line-height: 88.24px;
+}
+.wrapper{
+    position: relative;
+    padding: 0 15px;
+    margin: auto;
+    max-width: 1920px;
+    width: 100%;
+}
+.bannerSectionHolder{
+    position: relative;
+    background-image: url(images/banner.jpg);
+    width: 100%;
+    background-size: cover;
+}
+.bannerSection{
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+.leftSideDiv{
+    padding: 184px 80px;
+    width: 50%;
+}
+.rightSideDiv{
+    width: 50%;
+}
+.rightSideDiv{
+    margin-left: -100px;
+}
+.bannerTitle{
+    font-size: 64px;
+    font-weight: 400;
+    line-height: 74.11px;
+}
+.textRing{
+    position: absolute;
+    width: 96px;
+    margin-top: -14px;
+    margin-left: -20px;
+}
+
+.smallText{
+    font-size: 24px;
+    font-weight: 465;
+    line-height: 27.79px;
+    color: #fff;
+}
+.bannerBottomTextFirst{
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 200;
+    line-height: 39.71px;
+    color: #fff;
+    margin: 77px 0 6px;
+}
+.bannerBottomTextSecond{
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 300;
+    line-height: 39.71px;
+    color: #fff;
+    margin: 6px 0 35px;
+}
+.bannerBottomTextSecond strong{
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 300;
+}
+.buttonLink{
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 26.47px;
+    border: 1px solid #FFE0A2;
+    color: #fff;
+    background-color: transparent;
+    border-radius: 45px;
+    padding: 10px 25px;
+    transition: all 0.3s;
+    cursor: pointer;
+}
+.buttonLink:hover{
+    background-color: #FFE0A2;
+    color: #000;
+}
+.formData{
+    border: 1px solid #4a4a4a;
+    display: flex;
+    align-items: center;
+    border-radius: 80px;
+    padding:40px 14px 45px;
+    margin: 0 30px;
+}
+.inputElementBox{
+    border-bottom: 1px solid #6C6C6C;
+    padding-bottom: 5px;
+    display: flex;
+    align-items: center;
+    flex: auto;
+    margin: 0 20px;
+}
+.inputElementBox label{
+    font-family: "Petrona", serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 22.06px;
+    text-align: left;
+    color: #fff;
+    display: block;
+    min-width: max-content;
+}
+.inputElementBox:last-child{
+    border: 0;
+}
+.inputElementBox input{
+    font-family: "Petrona", serif;
+    background-color: transparent;
+    outline: none;
+    font-size: 20px;
+    line-height: 30px;
+    color: #fff;
+    border: 0;
+    min-width: auto;
+    width: 100%;
+    padding-left: 5px;
+}
+.inputElementBox button{
+    border: 1px solid;
+    background: linear-gradient(214.25deg, rgba(255, 255, 255, 0.2184) 6.73%, rgba(255, 233, 156, 0.1288) 100.28%, rgba(255, 201, 92, 0.56) 100.28%);
+    cursor: pointer;
+    height: 52px;
+    width: 52px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+}
+/* section 2 */
+.videoSection{
+    position: relative;
+    background-color: #000;
+    padding: 96px 0;
+}
+.sectionSubTitle{
+    font-size: 48px;
+    font-weight: 200;
+    line-height: 52.94px;
+    color: #fff;
+}
+.videoSectionData{
+    position: relative;
+    text-align: center;
+}
+.videoSectionData .object{
+    position: absolute;
+    top: -100%;
+    right: -18%;
+}
+.videoSectionData .titleText{
+    margin: 3px 0 27px;
+    color: #fff;
+    position: relative;
+    display: inline-block;
+}
+.watchButton{
+    background-color: #fff;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 22.56px;
+    border: 1px solid #fff;
+    border-radius: 30px;
+    padding: 8px 15px;
+    display: block;
+    margin: auto;
+}
+.watchButton img{
+    margin-left: 10px;
+    display: inline-block
+}
+.textInBetween{
+    width: 100%;
+}
+
+.backgroundTextImg{
+    font-size: 96px;
+    font-weight: 400;
+    line-height: 105.89px;
+    background-image: url("images/Gold-Texture.png");
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    -webkit-background-clip: text; 
+     background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.dataInfo{
+    max-width: 450px;
+    position: relative;
+    text-align: center;
+    margin: 50px 0;
+}
+.imgBox{
+    min-height: 110px;
+    display: flex;
+    align-items: baseline;
+    margin-bottom: 15px;
+}
+.leftFirst{
+    max-width: 400px;
+}
+.leftSecond{
+    transform: translateX(30%);
+    max-width: 400px;
+}
+.leftThird{
+    transform: translateX(100%);
+    max-width: 400px;
+}
+.rightSecond{
+    transform: translateX(-30%);
+    max-width: 400px;
+}
+.rightThird{
+    transform: translateX(-90%);
+    max-width: 430px;
+}
+.dataInfo img{
+    display: block;
+    margin: auto;
+}
+.dataInfo p{
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 31.2px;
+
+}
+
+.allProductHolder{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.leftDiv{
+    width: 50%;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+.centerDIv{
+    width: 50%;
+    margin-top: -250px;
+    /* position: absolute; */
+}
+.rightDiv{
+    width: 50%;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+}
+/* third 3 */
+.theySaidSection{
+    position: relative;
+    text-align: center;
+}
+.theySaidSection svg{
+    margin-top: -100%;
+}
+.theySaidSection .titleText{
+    margin-top: -30px;
+}
+.theySaidSection h2 strong{
+    font-weight: 400;
+}
+.theySaidBoxHolder{
+    position: relative;
+    display: flex;
+    margin: 60px 0 200px;
+    text-align: center;
+    padding: 0 240px;
+}
+.theySaidBoxOuter{
+    width: calc(33.33% - 43px);
+    margin: 0 43px 20px;
+    position: relative;
+}
+.theySaidBox{
+    backdrop-filter: blur(30.057092666625977px);
+    box-shadow: 0px 6.44px 8.59px 0px #00000029;
+    padding: 30px;
+    text-align: center;
+    border: 1px solid #f1f1f1;
+    border-radius: 230px;
+    padding-bottom: 150px;
+    position: relative;
+}
+.theySaidBoxOuter::before{
+    content: '';
+    position: absolute;
+    height: 100px;
+    width: 70px;
+    margin-top: 150px;
+    border-radius: 20px;
+    background-color: #ffcd69b0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    left: 0;
+    right: 0;
+}
+.profileImg{
+    padding: 30px;
+}
+.theySaidBox h4{
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 31.2px;
+    margin-bottom: 37px;
+}
+.theySaidBox p{
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 23.4px;
+    margin-bottom: 30px;
+}
+.personalizationSection{
+    position: relative;
+    margin-top: -400px;
+}
+.firstMainTitle{
+    text-align: center;
+    position: relative;
+    
+}
+.firstMainTitle .smallFont{
+    position: relative;
+    color: #fff;
+    font-size: 40px;
+    font-weight: 200;
+    line-height: 45.12px;
+
+}
+.firstMainTitle .smallFont i{
+    font-style: italic;
+    font-weight: 600;
+}
+.theySaidLeftTop{
+    position: absolute;
+    left: -20px;
+    top: 20%;
+}
+.theySaidBoxBottom{
+    position: absolute;
+    left: 10%;
+    bottom: 0;
+}
+.theySaidRightTop{
+    position: absolute;
+    right: 5%;
+    top: 0%;
+    z-index: -1;
+}
+.theySaidRightBottom{
+    position: absolute;
+    right: -10px;
+    bottom: 0;
+}
+
+
+/* section 4 */
+.fiveStepSection{
+    background-color: #fff;
+}
+.fiveDataBoxSlide h2{
+    font-size: 150px;
+    font-weight: 200;
+    line-height: 169.2px;
+    text-align: left;
+    color: #DFE2EC;
+    margin-bottom: 10px;
+}
+.fiveDataBoxSlide h3{
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 52px;
+    text-align: left;
+    margin: 10px 0;
+}
+.fiveDataBoxSlide p{
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 29.8px;
+    text-align: left;
+}
+.fiveDataBoxSlider{
+    position: relative;
+    padding-right: 150px;
+}
+.fiveDataBoxSlider .slick-arrow{
+    height: 85px;
+    width: 85px;
+    background: #fff;
+    box-shadow: -6px -6px 15px 0px #E6E6E6E5;
+    backdrop-filter: blur(1103px);
+    border-radius: 50%;
+    border: 0;
+    position: absolute;
+    bottom: 60px;
+}
+.fiveDataBoxSlider .slick-next {
+    right: 0;
+    background-image: url(images/blackArrow.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    color: transparent;
+    cursor: pointer;
+}
+.fiveDataBoxSlider .slick-prev  {
+    display: none !important; 
+}
+.fiveStepData .titleText{
+    margin-bottom: 100px;
+}
+.fiveStepData strong{
+    font-weight: 400;
+}
+.fiveStepSectionMain{
+    display: flex;
+    align-items: center;
+}
+.imageBox{
+    width: 45%;
+    position: relative;
+}
+.fiveStepSectionMain::before{
+    content: '';
+    position: absolute;
+    height: 81px;
+    width: 50%;
+    left: 0;
+    top: 0;
+    z-index: 1;
+    background: linear-gradient(194.13deg, rgba(255, 255, 255, 0) 2.39%, #FFFFFF 50%);
+}
+.imageBox::after{
+    content: '';
+    position: absolute;
+    height: 100%;
+    bottom: 0;
+    width: 100%;
+    left: -100px;
+    background-image: url(images/boxDiv.svg);
+    background-position: bottom;
+    background-repeat: no-repeat;
+}
+.fiveStepData{
+    width: 55%;
+    padding: 70px 94px 140px 0;
+}
+/* section 4 */
+.styleSection{
+    position: relative;
+    background-image: url(images/banner3.jpg);
+    width: 100%;
+    background-size: cover;
+    padding: 100px 0;
+    overflow: hidden;
+}
+.titleSection h2{
+    color: #fff;
+    text-align: center;
+    margin: auto;
+    position: relative;
+}
+.titleSection .rightTop{
+    position: absolute;
+    right: -50px;
+    top:-100px;
+}
+.titleSection .leftBottom{
+    position: absolute;
+    top: -10px;
+    left: 8%;
+}
+.styleSliderHolder{
+    position: relative;
+    margin: 90px 0 120px;
+}
+.styleSlide{
+    padding: 50px 10px;
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 200px;
+    text-align: center;
+    border-color: #FFE99C;
+    margin: 0 50px;
+}
+.styleSlide h4{
+    font-size: 40px;
+    font-weight: 300;
+    line-height: 52px;
+}
+.styleSlide p{
+    font-size: 24px;
+    font-weight: 300;
+    line-height: 29.52px;
+}
+.slideBox{
+    height: 100px;
+    display: flex;
+    margin: 30px 0;
+    justify-content: center;
+}
+.styleSliderHolder .slick-arrow{
+    height: 50px;
+    width: 50px;
+    background: transparent;
+    border: 0;
+    position: absolute;
+    bottom: -100px;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: transparent;
+    cursor: pointer;
+    z-index: 1;
+}
+.styleSliderHolder .slick-next {
+    right: calc(50% - 70px);
+    background-image: url(images/nextGold.svg);
+}
+.styleSliderHolder .slick-prev  {
+    left: calc(50% - 70px);
+    background-image: url(images/preGold.svg);
+}
+.firstImgSection{
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+}
+.leftSideData{
+    position: relative;
+    width: 50%;
+    padding: 120px 147px;
+}
+.leftSideDataInner{
+    position: relative;
+    width: auto;
+    display: inline-block;
+    height: auto;
+}
+.rightSideData{
+    position: relative;
+    width: 50%;
+    display: flex;
+    justify-content: right;
+    padding: 120px 120px 150px;
+}
+.rightSideDataInner{
+    position: relative;
+    width: auto;
+    display: inline-block;
+    height: auto;
+}
+.circleImg{
+    position: absolute;
+    height: 94px;
+    border: 1px solid #FFCD69;
+    width: 94px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    bottom: -50px;
+    right: -55px;
+}
+.circleImg img{
+    width: 42px;
+}
+.textSectionHigh{
+    position: relative;
+    margin-top: -200px;
+    padding:0 180px;
+}
+.textSectionHigh p{
+    font-size: 96px;
+    font-weight: 400;
+    line-height: 117.41px;    
+    color: #fff;
+}
+.textSectionHigh .lastChild{
+    transform: translatex(18%);
+}
+.secondImgSection{
+    display: flex;
+}
+.secondImgSection .rightSideData{
+    justify-content: left;
+}
+
+
+/* section ne */
+.notParfectSectionHolder{
+    display: flex;
+    padding: 130px 70px 90px;
+}
+.leftDataNotPar{
+    position: relative;
+    width: 65%;
+}
+.leftDataNotPar h3{
+    font-size: 80px;
+    font-weight: 400;
+    line-height: 95.84px;
+}
+.objectWithText{
+    position: relative;
+    display: flex;
+    min-height: 200px;
+    padding-left: 320px;
+    padding-top: 30px;
+}
+.objectWithText img{
+    position: absolute;
+    left: -60px;
+    top: -50px;
+}
+.objectWithText p{
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 38.4px;
+    
+}
+.rightDataNotPar{
+    position: absolute;
+    top: 0;
+    height: 100%;
+    right: 0;
+}
+/* section list */
+.listSection{
+    background-color: #000;
+    padding: 110px 200px;
+}
+.listSectionHolder{
+    display: flex;
+    margin: 63px -20px 50px;
+}
+.listSection h2{
+    margin: auto;
+    text-align: center;
+    color: #fff;
+    font-size: 96px;
+    font-weight: 400;
+    line-height: 102.53px;
+}
+.listBox{
+    position: relative;
+    margin: 60px 40px;
+    width: calc(33.33% - 40px);
+    text-align: center;
+}
+.listBox p{
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 46.8px;
+    margin-top: 30px;
+}
+.listImg{
+    height: 364px;
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+    overflow: hidden;
+    margin: 0 40px;
+}
+.listImg img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    background-position: center;
+    display: block;
+}
+
+
+/* section last */
+.appointmentSectionHolder{
+    position: relative;
+    background-color: #000;
+}
+.appointmentSectionHolder .wrapper{
+    padding-right: 0;
+}
+.appointmentSection{
+    display: flex;
+    align-items: center;
+}
+.appointmentSectionData{
+    padding:10px 157px;
+}
+.appointmentSectionData h2{
+    max-width: 1084px;
+    font-family: Cinzel;
+    font-size: 96px;
+    font-weight: 400;
+    line-height: 115.01px;
+    color: #fff;
+    margin-bottom: 44px;
+}
+.appointmentSectionData h2 strong{
+    font-weight: 400;
+}
+.FillButtonLink{
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 36.1px;
+    border: 1px solid #FFE0A2;
+    color: #000;
+    background-color: #FFCD69;
+    border-radius: 45px;
+    padding: 10px 25px;
+}
+.appointmentSectionImg{
+    width: 50%;
+}
+.appointmentSectionImg img{
+    display: block;
+}
+.footerSection{
+    padding:30px 15px;
+    background-color: #fff;
+    text-align: center;
+}
+.footerSection p{
+    color: #000;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+
+.objectFooter{
+    position: absolute;
+    top: -250px;
+    left: 0;
+}
+@media all and (max-width: 1680px) {
+    .bannerTitle{
+        font-size: 44px;
+        line-height: 55px;
+    }
+    .textRing{
+        width: 58px;
+        margin-top: -5px;
+        margin-left: -13px;
+    }
+    .smallText{
+        font-size: 18px;
+        line-height: 24px;
+    }
+    .bannerBottomTextFirst{
+        font-size: 24px;
+        line-height: 28px;
+        margin:40px 0 5px;
+    }
+    .bannerBottomTextSecond{
+        font-size: 24px;
+        line-height: 28px;
+        margin: 5px 0 20px;
+    }
+    .bannerBottomTextSecond strong{
+        font-size: 24px;
+        line-height: 28px;
+    }
+    .buttonLink{
+        font-size: 18px;
+        line-height: 24px;
+    }
+    .rightSideDiv{
+        margin: 0;
+    }
+    .leftSideDiv{
+        padding: 120px 40px;
+    }
+    .formData{
+        padding: 20px 10px 25px;
+    }
+
+    .videoSection{
+        padding: 50px 0;
+    }
+    .sectionSubTitle{
+        font-size: 28px;
+    }
+    .titleText{
+        font-size: 60px;
+        line-height: 70px;
+    }
+    .watchButton{
+        font-size: 18px;
+        line-height: 20px;
+    }
+    .videoSectionData .object{
+        right: -21%;
+    }
+    .firstMainTitle .smallFont{
+        font-size: 28px;
+        line-height: 34px;
+    }
+    .backgroundTextImg{
+        font-size: 75px;
+        line-height: 90px;
+    }
+    .imgBox{
+        min-height: 90px;
+        margin-bottom: 10px;
+    }
+    .dataInfo{
+        max-width: 300px;
+        margin: 20px 0;
+    }
+    .dataInfo p{
+        font-size: 18px;
+        line-height: 28px;
+    }
+    .leftFirst{max-width: 300px;}
+    .leftSecond{
+        max-width: 300px;
+    }
+    .rightThird{
+        transform: translateX(-80%);
+        max-width: 300px;
+    }
+    .leftThird {
+        transform: translateX(90%);
+        max-width: 300px;
+    }
+    .fiveStepData .titleText{
+        margin-bottom: 50px;
+    }
+    .fiveDataBoxSlide h2{
+        font-size: 120px;
+        line-height: 150px;
+    }
+    .fiveDataBoxSlide h3{
+        line-height: 40px;
+        font-size: 28px;
+    }
+    .fiveDataBoxSlide p{
+        font-size: 18px;
+        line-height: 24px;
+    }
+    .fiveStepData{
+        padding: 90px 50px 90px 0;
+    }
+    .fiveDataBoxSlider{
+        padding-right: 100px;
+    }
+    .styleSection{
+        padding: 50px 0;
+    }
+    .styleSlide h4{
+        font-size: 30px;
+        line-height: 40px;
+    }
+    .styleSlide p{
+        font-size: 18px;
+        line-height: 24px;
+    }
+    .styleSlide{
+        margin: 0 40px;
+    }
+    .leftSideData{
+        padding: 80px;
+    }
+    .rightSideData{
+        padding: 80px;
+    }
+    .textSectionHigh{
+        margin-top: -150px;
+        padding: 0 120px;
+    }
+    .textSectionHigh p{
+        font-size: 60px;
+        line-height: 70px;
+    }
+    .textSectionHigh .lastChild{
+        transform: translatex(10%);
+    }
+    .circleImg{
+        height: 70px;
+        width: 70px;
+        bottom: -20px;
+        right: -40px;
+    }
+    .circleImg img {
+        width: 26px;
+    }
+    .rightDataNotPar{
+        width: 40%;
+        object-fit: cover;
+    }
+    .leftDataNotPar h3{
+        font-size: 50px;
+        line-height: 60px;
+    }
+    .notParfectSectionHolder{
+        padding: 50px 40px;
+    }
+    .objectWithText img{
+        width: 50%;
+    }
+    .objectWithText{
+        padding-left: 150px;
+    }
+    .objectWithText p {
+        font-size: 18px;
+        line-height: 24px;
+    }
+    .listSection h2{
+        font-size: 60px;
+        line-height: 70px;
+    }
+    .listSection{
+        padding: 80px;
+    }
+    .listBox p{
+        font-size: 24px;
+        line-height: 30px;
+    }
+    .listSectionHolder{
+        margin: 40px -20px;
+    }
+    .theySaidBoxHolder{
+        margin: 40px 0 100px;
+    }
+    .theySaidBoxOuter{
+        width: calc(33.33% - 23px);
+        margin: 0 23px 20px;
+        padding-bottom: 100px;
+    }
+    .objectFooter {
+        top: -100px;
+        max-width: 300px;
+    }
+    .appointmentSectionData h2{
+        font-size: 70px;
+        line-height: 80px;
+    }
+    .FillButtonLink{
+        font-size: 24px;
+        line-height: 30px;
+    }
+    .appointmentSectionData{
+        padding: 50px 100px;
+    }
+    .footerSection p{
+        font-size: 16px;
+        line-height: 22px;
+    }
+}
+@media all and (max-width: 1480px) {
+    .listImg{
+        margin: 0px;
+    }
+    .objectFooter {
+        top: -100px;
+        max-width: 220px;
+    }
+    .inputElementBox label{
+        font-size: 16px;
+    }
+}
+@media all and (max-width: 991px) {
+
+    .bannerTitle {
+        font-size: 36px;
+        line-height: 50px;
+    }
+    .smallText {
+        font-size: 16px;
+        line-height: 20px;
+    }
+    .bannerBottomTextFirst {
+        font-size: 20px;
+        line-height: 24px;
+        margin: 30px 0 5px;
+    }
+    .bannerBottomTextSecond {
+        font-size: 20px;
+        line-height: 24px;
+    }
+    .bannerSection{
+        display: block;
+    }
+    .leftSideDiv,.rightSideDiv{
+        width: 100%;
+        text-align: center;
+        margin: auto;
+        padding: 40px 0;
+    }
+    .formData{
+        flex-wrap: wrap;
+        margin: 0;
+        border-radius: 40px;
+    }
+    .inputElementBox {
+        flex: 0 0 calc(50% - 20px);
+        margin: 10px;
+    }
+    .videoSectionData .object {
+        right: 0;
+        width: 200px;
+        bottom: inherit;
+        top: 0;
+    }
+    .inputElementBox button{
+        height: 36px;
+        width: 36px;
+    }
+    .inputElementBox button img{
+        width: 15px;
+    }
+    .sectionSubTitle {
+        font-size: 20px;
+        line-height: 30px;
+    }
+    .titleText {
+        font-size: 40px;
+        line-height: 50px;
+    }
+    .leftSecond,.leftThird,.rightSecond,.rightThird{
+        transform: translateX(0%);
+    }
+    .centerDIv{
+        margin: 0;
+    }
+
+    .imageBox{
+        display: none;
+    }
+    .fiveStepSectionMain::before{
+        display: none;
+    }
+    .fiveStepData{
+        width: 100%;
+        padding: 40px 0;
+    }
+    .textSectionHigh p,.leftDataNotPar h3{
+        font-size: 40px;
+        line-height: 50px;
+    }
+    .textSectionHigh{
+        padding:0 50px;
+    }
+    .listSection h2,.appointmentSectionData h2{
+        font-size: 50px;
+        line-height: 60px;
+    }
+    .theySaidBoxHolder{
+        padding: 0 140px;
+    }
+    .theySaidBox{
+        padding-bottom: 100px;
+    }
+    
+}
+@media all and (max-width: 767px) {
+    .bannerTitle br{
+        display: none;
+    }
+    .centerDIv{
+        display: none;
+    }
+    .allProductHolder{
+        display: block;
+    }
+    .leftDiv,.rightDiv{
+        width: 100%;
+    }
+    .dataInfo {
+        max-width: 300px !important;
+        margin: 20px auto;
+    }
+    .backgroundTextImg{
+        font-size: 38px;
+        background-size: auto;
+        line-height: 50px;
+    }
+    .personalizationSection{
+        margin: 0;
+    }
+    .titleText{
+        font-size: 32px;
+        line-height: 40px;
+    }
+    .videoSectionData{
+        padding: 0 15px;
+    }
+    .videoSectionData .object {
+        width: 150px;
+    }
+    .fiveStepData .titleText{
+        margin-bottom: 20px;
+    }
+    .fiveDataBoxSlider .slick-arrow {
+        height: 60px;
+        width: 60px;
+        background-size: 20px;
+    }
+    .fiveDataBoxSlider {
+        padding-right: 80px;
+    }
+    .firstImgSection,.secondImgSection{
+        display: block;
+        width: 100%;
+    }
+    .leftSideData,.rightSideData{
+        width: 100%;
+        padding:20px 0;
+        text-align: center;
+        margin: auto;
+        display: block;
+    }
+    .textSectionHigh{
+        margin: 0;
+        order: -1;
+        width: 100%;
+    }
+    .textSectionHigh{
+        padding: 20px 0;
+    }
+    .textSectionHigh .lastChild{
+        transform: translatex(0%);
+    }
+    .parentDiv{
+        margin-top: 40px;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .notParfectSectionHolder{
+        padding:50px 0;
+    }
+    .leftDataNotPar,.leftDataNotPar{
+        width: 100%;
+    }
+    .rightDataNotPar{
+        display: none;
+    }
+    .objectWithText{
+        padding: 0;
+        display: block;
+    }
+    .objectWithText img{
+        position: relative;
+        top: 0;
+        left: 0;
+    }
+    .listSection{
+        padding:50px 0;
+    }
+    .listSectionHolder{
+        display: block;
+        margin: 0;
+    }
+    .listBox{
+        width: 100%;
+        margin: 40px 0;
+    }
+    .theySaidBoxHolder{
+        padding: 0;
+        display: block;
+    }
+    .theySaidBoxOuter{
+        width: 100%;
+        margin: 30px auto;
+        max-width: 400px;
+        padding-bottom: 0;
+    }
+    .appointmentSectionData{
+        padding: 50px 0;
+    }
+    .appointmentSection{
+        display: block;
+    }
+    .appointmentSectionImg{
+        width: 100%;
+    }
+    .styleSlide{
+        margin: 0 20px;
+    }
+    .circleImg{
+        right: 0;
+    }
+    .theySaidRightBottom {
+        right: 0;
+        bottom: 0;
+        width: 100px;
+    }
+    .theySaidSection .titleText{
+        margin-top: 30px;
+    }
+    .titleSection .rightTop {
+        position: absolute;
+        right: 0;
+        top: -80px;
+        width: 200px;
+    }
+    .titleSection .leftBottom {
+        position: absolute;
+        top: 38px;
+        left: -25px;
+        width: 185px;
+    }
+}
